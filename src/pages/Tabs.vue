@@ -32,7 +32,7 @@
       </div>
       <pre ref="code">
         <code class="html">
-&lt;aki-tabs v-model="tab2">
+&lt;aki-tabs v-model="tab2" fill>
   &lt;aki-tab label="tab1">标签一&lt;/aki-tab>
   &lt;aki-tab label="tab2">标签二&lt;/aki-tab>
   &lt;aki-tab label="tab3">标签三&lt;/aki-tab>
@@ -50,9 +50,9 @@
       </div>
       <pre ref="code">
         <code class="html">
-&lt;aki-tabs v-model="tab2" fill>
-  &lt;aki-tab label="tab1">标签一&lt;/aki-tab>
-  &lt;aki-tab label="tab2">标签二&lt;/aki-tab>
+&lt;aki-tabs v-model="tab2">
+  &lt;aki-tab label="tab1" badge>标签一&lt;/aki-tab>
+  &lt;aki-tab label="tab2" badge=2>标签二&lt;/aki-tab>
   &lt;aki-tab label="tab3">标签三&lt;/aki-tab>
 &lt;/aki-tabs>
         </code>
