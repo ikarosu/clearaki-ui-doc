@@ -35,6 +35,11 @@ const routes = [
     component: () => import('@/pages/Input')
   },
   {
+    name: 'selection',
+    path: '/selection',
+    component: () => import('@/pages/Selection')
+  },
+  {
     name: 'picker',
     path: '/picker',
     component: () => import('@/pages/Picker')

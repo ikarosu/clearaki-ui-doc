@@ -7,6 +7,7 @@
       <router-link to="/counter">Counter</router-link>
       <router-link to="/dialog">Dialog</router-link>
       <router-link to="/input">Input</router-link>
+      <router-link to="/selection">Selection</router-link>
       <router-link to="/picker">Picker</router-link>
       <router-link to="/select">Select</router-link>
       <router-link to="/sheet/bottom">SheetBottom</router-link>
