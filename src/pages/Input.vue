@@ -4,34 +4,6 @@
     <main class="aki-page-main" v-hljs>
       <h3>type</h3>
       <p>与 HTML5 规范一致</p>
-      <h4>radio</h4>
-      <div class="demo">
-        <aki-input type="radio" name="sex" label="男"></aki-input>
-        <aki-input type="radio" name="sex" label="女"></aki-input>
-        <aki-input type="radio" name="sex" label="保密"></aki-input>
-      </div>
-      <pre ref="code">
-        <code class="html">
-&lt;aki-input type="radio" name="sex" label="男">&lt;/aki-input>
-&lt;aki-input type="radio" name="sex" label="女">&lt;/aki-input>
-&lt;aki-input type="radio" name="sex" label="保密">&lt;/aki-input>
-        </code>
-      </pre>
-      <h4>checkbox</h4>
-      <div class="demo">
-        <aki-input type="checkbox" name="hobby" label="音乐"></aki-input>
-        <aki-input type="checkbox" name="hobby" label="摄影"></aki-input>
-        <aki-input type="checkbox" name="hobby" label="油画"></aki-input>
-        <aki-input type="checkbox" name="hobby" label="话剧"></aki-input>
-      </div>
-      <pre ref="code">
-        <code class="html">
-&lt;aki-input type="checkbox" name="hobby" label="音乐">&lt;/aki-input>
-&lt;aki-input type="checkbox" name="hobby" label="摄影">&lt;/aki-input>
-&lt;aki-input type="checkbox" name="hobby" label="油画">&lt;/aki-input>
-&lt;aki-input type="checkbox" name="hobby" label="话剧">&lt;/aki-input>
-        </code>
-      </pre>
       <h3>label</h3>
       <p>input 的显示名称</p>
       <div class="demo">
