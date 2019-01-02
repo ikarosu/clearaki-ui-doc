@@ -10,6 +10,11 @@ const routes = [
     component: () => import('@/Index')
   },
   {
+    name: 'banner',
+    path: '/banner',
+    component: () => import('@/pages/Banner')
+  },
+  {
     name: 'button',
     path: '/button',
     component: () => import('@/pages/Button')
@@ -18,6 +23,11 @@ const routes = [
     name: 'confirm',
     path: '/confirm',
     component: () => import('@/pages/Confirm')
+  },
+  {
+    name: 'context',
+    path: '/context',
+    component: () => import('@/pages/ContextMenu')
   },
   {
     name: 'counter',

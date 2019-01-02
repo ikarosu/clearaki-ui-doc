@@ -3,7 +3,9 @@
     <aki-topbars fill nav="menu">ClearAki-UI</aki-topbars>
     <main class="aki-page-main">
       <router-link to="/button">Button</router-link>
+      <router-link to="/Banner">Banner</router-link>
       <router-link to="/confirm">Confirm</router-link>
+      <router-link to="/context">ContextMenu</router-link>
       <router-link to="/counter">Counter</router-link>
       <router-link to="/dialog">Dialog</router-link>
       <router-link to="/input">Input</router-link>
