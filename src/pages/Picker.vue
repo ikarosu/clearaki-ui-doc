@@ -10,10 +10,10 @@
       <p>允许点击切换</p>
       <div class="demo">
         <aki-picker v-model="picker1" @change="handleChange">
-          <option value="1">第一项</option>
-          <option value="2">第二项</option>
-          <option value="3">第三项</option>
-          <option value="4">第四项</option>
+          <li value="1">第一项</li>
+          <li value="2">第二项</li>
+          <li value="3">第三项</li>
+          <li value="4">第四项</li>
         </aki-picker>
         <p>picker1: {{picker1}}</p>
       </div>
