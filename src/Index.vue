@@ -2,21 +2,22 @@
   <section class="aki-page">
     <aki-topbars fill nav="menu">ClearAki-UI</aki-topbars>
     <main class="aki-page-main">
-      <router-link to="/button">Button</router-link>
-      <router-link to="/Banner">Banner</router-link>
-      <router-link to="/confirm">Confirm</router-link>
-      <router-link to="/context">ContextMenu</router-link>
-      <router-link to="/counter">Counter</router-link>
-      <router-link to="/dialog">Dialog</router-link>
-      <router-link to="/input">Input</router-link>
-      <router-link to="/selection">Selection</router-link>
-      <router-link to="/picker">Picker</router-link>
-      <router-link to="/select">Select</router-link>
-      <router-link to="/sheet/bottom">SheetBottom</router-link>
-      <router-link to="/snackbar">Snackbar</router-link>
-      <router-link to="/tabs">Tabs</router-link>
-      <router-link to="/Toolbar">Toolbar</router-link>
-      <router-link to="/topbars">Topbars</router-link>
+      <p><router-link to="/button">Button</router-link></p>
+      <p><router-link to="/Banner">Banner</router-link></p>
+      <p><router-link to="/confirm">Confirm</router-link></p>
+      <p><router-link to="/context">ContextMenu</router-link></p>
+      <p><router-link to="/counter">Counter</router-link></p>
+      <p><router-link to="/dialog">Dialog</router-link></p>
+      <p><router-link to="/input">Input</router-link></p>
+      <p><router-link to="/selection">Selection</router-link></p>
+      <p><router-link to="/picker">Picker</router-link></p>
+      <p><router-link to="/select">Select</router-link></p>
+      <p><router-link to="/sheet/bottom">SheetBottom</router-link></p>
+      <p><router-link to="/snackbar">Snackbar</router-link></p>
+      <p><router-link to="/switch">Switch</router-link></p>
+      <p><router-link to="/tabs">Tabs</router-link></p>
+      <p><router-link to="/Toolbar">Toolbar</router-link></p>
+      <p><router-link to="/topbars">Topbars</router-link></p>
     </main>
     <aki-toolbars v-model="active" fixText>
       <aki-toolbar label="a1" badges>
@@ -53,11 +54,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.aki-page-main>a{
-  display: block;
-}
-</style>
-
-

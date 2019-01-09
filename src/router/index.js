@@ -84,9 +84,13 @@ const routes = [
     path: '/topbars',
     component: () => import('@/pages/Topbars')
   },
+  {
+    name: 'switch',
+    path: '/switch',
+    component: () => import('@/pages/Switch')
+  },
 ]
 const router = new Router({
-  mode: 'history',
   base: '/clearaki-ui/',
   routes
 })
