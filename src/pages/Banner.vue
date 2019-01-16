@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Banner</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Banner</aki-topbar>
     <main class="aki-page-main x" v-hljs>
       <aki-banner :visible="visible">
         <p>注意这个实际的例子，这个就是Banner</p>
@@ -11,7 +11,7 @@
       <pre ref="code">
         <code class="html">
 &lt;section class="aki-page">
-  &lt;aki-topbars>标题&lt;/aki-topbars>
+  &lt;aki-topbar>标题&lt;/aki-topbar>
   &lt;div class="aki-page-main">
 
     &lt;aki-banner :visible="visible">

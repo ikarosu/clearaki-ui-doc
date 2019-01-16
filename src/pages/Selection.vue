@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Selection</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Selection</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>Radio</h3>
       <div class="demo">

@@ -4,7 +4,7 @@ module.exports = {
     disableHostCheck: true,
   },
 
-  baseUrl: '/clearaki-ui/',
+  publicPath: '/clearaki-ui/',
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,

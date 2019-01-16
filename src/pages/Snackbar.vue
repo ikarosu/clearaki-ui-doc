@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Snackbar</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Snackbar</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>基础使用</h3>
       <p>如果引入了完整的 clearaki-ui，可以直接在 vue 实例使用该方法</p>

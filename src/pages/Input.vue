@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Input</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Input</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>type</h3>
       <p>与 HTML5 规范一致</p>

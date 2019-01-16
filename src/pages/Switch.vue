@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Switch</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Switch</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h4>基础使用</h4>
       <div class="demo">

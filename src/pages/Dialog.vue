@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Dialog</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Dialog</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>基础使用</h3>
       <p>需要把组件放在当前页面的最外层，并以此作为层级关系</p>

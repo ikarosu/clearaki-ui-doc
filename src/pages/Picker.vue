@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Picker</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Picker</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>使用</h3>
       <p>绑定 v-model 来获取当前值</p>

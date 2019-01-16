@@ -15,6 +15,11 @@ const routes = [
     component: () => import('@/pages/Banner')
   },
   {
+    name: 'background',
+    path: '/background',
+    component: () => import('@/pages/Background')
+  },
+  {
     name: 'button',
     path: '/button',
     component: () => import('@/pages/Button')

@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Select</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Select</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>label</h3>
       <p>select 的显示名称</p>

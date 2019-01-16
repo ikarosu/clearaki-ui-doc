@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Counter</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Counter</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>基础使用</h3>
       <p>必须提供 v-model 才能正常工作</p>

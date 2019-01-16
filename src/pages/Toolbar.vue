@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Toolbar</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Toolbar</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>基础使用</h3>
       <p>使用 v-model 绑定当前活动 toolbar 值</p>

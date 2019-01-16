@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbars @nav-click="$router.back()" nav=back fill>Button</aki-topbars>
+    <aki-topbar @nav-click="$router.back()" nav=back fill>Button</aki-topbar>
     <main class="aki-page-main" v-hljs>
       <h3>类型</h3>
       <p>改变 type 属性可以让按钮呈现不一样的类型</p>
