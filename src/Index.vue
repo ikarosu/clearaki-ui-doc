@@ -10,8 +10,9 @@
       <p><router-link to="/counter">Counter</router-link></p>
       <p><router-link to="/dialog">Dialog</router-link></p>
       <p><router-link to="/input">Input</router-link></p>
-      <p><router-link to="/selection">Selection</router-link></p>
+      <p><router-link to="/Icon">Icon</router-link></p>
       <p><router-link to="/picker">Picker</router-link></p>
+      <p><router-link to="/selection">Selection</router-link></p>
       <p><router-link to="/select">Select</router-link></p>
       <p><router-link to="/sheet/bottom">SheetBottom</router-link></p>
       <p><router-link to="/snackbar">Snackbar</router-link></p>

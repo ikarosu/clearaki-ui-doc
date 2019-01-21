@@ -94,6 +94,11 @@ const routes = [
     path: '/switch',
     component: () => import('@/pages/Switch')
   },
+  {
+    name: 'icon',
+    path: '/icon',
+    component: () => import('@/pages/Icon')
+  },
 ]
 const router = new Router({
   base: '/clearaki-ui/',
