@@ -75,6 +75,11 @@ const routes = [
     component: () => import('@/pages/Snackbar')
   },
   {
+    name: 'step',
+    path: '/step',
+    component: () => import('@/pages/Step')
+  },
+  {
     name: 'tabs',
     path: '/tabs',
     component: () => import('@/pages/Tabs')
