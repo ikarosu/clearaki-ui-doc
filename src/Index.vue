@@ -1,6 +1,6 @@
 <template>
   <section class="aki-page">
-    <aki-topbar fill nav="menu">ClearAki-UI</aki-topbar>
+    <aki-topbar fill nav="menu">ClearAki-UI <aki-icon @click="dialogVisible=true" icon="dots-vertical" slot="action" /></aki-topbar>
     <main class="aki-page-main">
       <p><router-link to="/button">Button</router-link></p>
       <p><router-link to="/Background">Background</router-link></p>
@@ -45,14 +45,52 @@
         </svg>
       </aki-toolbar>
     </aki-toolbars>
+    <aki-dialog :visible.sync="dialogVisible">
+      <h3 slot="header">更换主题色</h3>
+      <input type="color" v-model="color">
+      <aki-button slot="footer" @click="setTheme">确定</aki-button>
+    </aki-dialog>
   </section>
 </template>
 
 <script>
+const hex2rgb = hex => {
+  const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i
+  hex = hex.replace(shorthandRegex, (m, r, g, b) => {
+    return r + r + g + g + b + b
+  })
+
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+  return result
+    ? {
+      r: parseInt(result[1], 16),
+      g: parseInt(result[2], 16),
+      b: parseInt(result[3], 16)
+    }
+    : null
+}
+
+const rgb2hex = (r, g, b) => {
+  const componentToHex = c => c.toString(16).length === 1 ? `0${c.toString(16)}` : c.toString(16)
+  return `#${componentToHex(r)}${componentToHex(g)}${componentToHex(b)}`
+}
 export default {
   data() {
     return {
       active: 'a1',
+      color: sessionStorage.getItem('color') || '#03a9f4',
+      dialogVisible: false,
+    }
+  },
+  methods: {
+    setTheme() {
+      sessionStorage.setItem('color', this.color)
+      const { r, g, b } = hex2rgb(this.color)
+      const root = document.documentElement
+      root.style.setProperty('--r', r)
+      root.style.setProperty('--g', g)
+      root.style.setProperty('--b', b)
+      this.dialogVisible = false
     }
   }
 }

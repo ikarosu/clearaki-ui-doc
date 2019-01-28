@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 
 import clearakiUI from 'clearaki-ui'
-import 'clearaki-ui/theme/main.css'
+import 'clearaki-ui/theme/index.css'
 Vue.use(clearakiUI)
 
 import hljs from 'highlight.js'

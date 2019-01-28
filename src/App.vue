@@ -1,6 +1,13 @@
 <template>
   <router-view></router-view>
 </template>
+<script>
+export default {
+  created() {
+    sessionStorage.removeItem('color')
+  }
+}
+</script>
 
 <style>
 body{
