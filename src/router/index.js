@@ -25,6 +25,16 @@ const routes = [
     component: () => import('@/pages/Button')
   },
   {
+    name: 'fab',
+    path: '/fab',
+    component: () => import('@/pages/FAB')
+  },
+  {
+    name: 'fabs',
+    path: '/fabs',
+    component: () => import('@/pages/FABs')
+  },
+  {
     name: 'confirm',
     path: '/confirm',
     component: () => import('@/pages/Confirm')
@@ -43,6 +53,11 @@ const routes = [
     name: 'dialog',
     path: '/dialog',
     component: () => import('@/pages/Dialog')
+  },
+  {
+    name: 'dropdown',
+    path: '/dropdown',
+    component: () => import('@/pages/Dropdown')
   },
   {
     name: 'input',

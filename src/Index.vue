@@ -9,6 +9,9 @@
       <p><router-link to="/context">ContextMenu</router-link></p>
       <p><router-link to="/counter">Counter</router-link></p>
       <p><router-link to="/dialog">Dialog</router-link></p>
+      <p><router-link to="/dropdown">dropdown</router-link></p>
+      <p><router-link to="/fab">Floating Action Button</router-link></p>
+      <p><router-link to="/fabs">Floating Action Button Group</router-link></p>
       <p><router-link to="/input">Input</router-link></p>
       <p><router-link to="/Icon">Icon</router-link></p>
       <p><router-link to="/picker">Picker</router-link></p>
@@ -70,10 +73,6 @@ const hex2rgb = hex => {
     : null
 }
 
-const rgb2hex = (r, g, b) => {
-  const componentToHex = c => c.toString(16).length === 1 ? `0${c.toString(16)}` : c.toString(16)
-  return `#${componentToHex(r)}${componentToHex(g)}${componentToHex(b)}`
-}
 export default {
   data() {
     return {
