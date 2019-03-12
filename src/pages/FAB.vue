@@ -35,6 +35,16 @@
 &lt;aki-button @click="fixed = ',,16,16'" type="outline" size="xs">,,16,16&lt;/aki-button>
         </code>
       </pre>
+      <h3>自定义icon</h3>
+      <p>icon传入一个对象，来显示自定义图标</p>
+      <div class="demo">
+        <aki-fab :icon="{ box: '0 0 24 24', width: '24px', path: 'M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z'}" />
+      </div>
+      <pre ref="code">
+        <code class="html">
+&lt;aki-fab :icon="{ box: '0 0 24 24', width: '24px', path: 'M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z'}" />
+        </code>
+      </pre>
     </main>
   </section>
 </template>
