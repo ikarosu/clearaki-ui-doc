@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "clearaki-ui": "^0.22.2",
+    "clearaki-ui": "^0.22.3",
     "highlight.js": "^9.15.6",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6"

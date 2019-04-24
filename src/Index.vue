@@ -3,7 +3,7 @@
     <aki-topbar fill nav="menu">ClearAki-UI <aki-icon @click="dialogVisible=true" icon="dots-vertical" slot="action" /></aki-topbar>
     <main class="aki-page-main">
       <p><router-link to="/button">Button</router-link></p>
-      <p><router-link to="/Background">Background</router-link></p>
+      <p><router-link to="/Backdrop">Backdrop</router-link></p>
       <p><router-link to="/Banner">Banner</router-link></p>
       <p><router-link to="/confirm">Confirm</router-link></p>
       <p><router-link to="/context">ContextMenu</router-link></p>

@@ -1,7 +1,7 @@
 <template>
-  <aki-page-background title="可选标题" :opened.sync="bgOpen">
+  <aki-backdrop title="可选标题" :visible.sync="bgOpen">
     <aki-topbar @nav-click="$router.back()" nav="back" fill slot="topbar">Background<aki-icon @click="bgOpen=!bgOpen" slot="action" icon="menu"/></aki-topbar>
-    <div class="bg" slot="background">
+    <div class="bg" slot="backdrop">
       <p>content1</p>
       <p>content2</p>
       <p>content3</p>
@@ -10,7 +10,7 @@
       <h3>基础使用</h3>
       <pre ref="code">
         <code v-pre class="html">
-&lt;aki-page-background
+&lt;aki-backdrop
   title="可选标题"
   :opened.sync="bgOpen"
 >
@@ -28,7 +28,7 @@
     />
   &lt;/aki-topbar>
   &lt;div
-    slot="background"
+    slot="backdrop"
     class="bg"
   >
     &lt;p>content1&lt;/p>
@@ -38,7 +38,7 @@
   &lt;main>
     ...
   &lt;/main>
-&lt;/aki-page-background>
+&lt;/aki-backdrop>
         </code>
         <code class="javascript">
 data() {
@@ -49,7 +49,7 @@ data() {
         </code>
       </pre>
     </main>
-  </aki-page-background>
+  </aki-backdrop>
 </template>
 
 <script>
