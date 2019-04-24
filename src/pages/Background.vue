@@ -1,6 +1,6 @@
 <template>
   <aki-page-background title="可选标题" :opened.sync="bgOpen">
-    <aki-topbar @nav-click="$router.back()" nav="back" fill slot="topbar">Background <aki-icon @click="bgOpen=!bgOpen" slot="action" icon="menu"/></aki-topbar>
+    <aki-topbar @nav-click="$router.back()" nav="back" fill slot="topbar">Background<aki-icon @click="bgOpen=!bgOpen" slot="action" icon="menu"/></aki-topbar>
     <div class="bg" slot="background">
       <p>content1</p>
       <p>content2</p>
@@ -20,7 +20,7 @@
     fill
     @nav-click="$router.back()"
   >
-    Background 
+    Background
     &lt;aki-icon
       slot="action"
       icon="menu"
